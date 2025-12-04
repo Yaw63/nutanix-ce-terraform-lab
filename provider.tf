@@ -10,8 +10,8 @@ terraform {
 
 provider "nutanix" {
   username = "admin"
-  password = var.nutanix_password          # Now from variables (never hardcoded)
-  endpoint = var.cluster_vip
+  password = var.nutanix_password
+  endpoint = var.cluster_vip                # 172.16.16.200
   port     = 9440
-  insecure = true
+  insecure = true                           # CE self-signed cert
 }
