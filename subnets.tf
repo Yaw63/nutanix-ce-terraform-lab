@@ -1,4 +1,4 @@
-data "nutanix_cluster" "cluster" {}
+data "nutanix_cluster" "cluster" { name = "Selvamani-LAB" }
 
 resource "nutanix_subnet" "lab_subnets" {
   for_each = var.subnets
