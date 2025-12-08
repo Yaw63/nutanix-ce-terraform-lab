@@ -2,13 +2,12 @@
 **Physical 4-node Nutanix Community Edition cluster – 100 % automated with Terraform**
 
 ![Nutanix CE](https://img.shields.io/badge/Nutanix-CE-orange) 
-![Terraform](https://img.shields.io/badge/Terraform-1.9%2B-5F43E2?logo=terraform) 
 ![AHV](https://img.shields.io/badge/Hypervisor-AHV-blue) 
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Azure](https://img.shields.io/badge/Microsoft%20Azure-0078D4?logo=microsoftazure&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?logo=amazon-aws&logoColor=white)
 ![VMware ESXi](https://img.shields.io/badge/VMware%20ESXi-607078?logo=vmware&logoColor=white)
-/![Terraform](https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white)
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?logo=ansible&logoColor=white)
 ![Proxmox](https://img.shields.io/badge/Proxmox-E57000?logo=proxmox&logoColor=white)
 ![Dell](https://img.shields.io/badge/Dell-007DB8?logo=dell&logoColor=white)
