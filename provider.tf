@@ -1,5 +1,4 @@
 terraform {
-  required_version = ">= 1.5.0"
   required_providers {
     nutanix = {
       source  = "nutanix/nutanix"
@@ -11,7 +10,7 @@ terraform {
 provider "nutanix" {
   username = "admin"
   password = var.nutanix_password
-  endpoint = var.cluster_vip # 172.16.16.200
+  endpoint = var.cluster_vip
   port     = 9440
-  insecure = true # CE self-signed cert
+  insecure = true
 }
