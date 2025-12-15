@@ -1,34 +1,30 @@
-# Terraform
-.terraform/
-.terraform.lock.hcl
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files (CRITICAL: These contain cleartext passwords)
 *.tfstate
-*.tfstate.backup
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*
+
+# Exclude sensitive variables file
+terraform.tfvars
+*.auto.tfvars
+
+# Exclude text inventories or temp files
+*.txt
+
+# Ignore the backup folder (Do not push old junk code)
+backup_old/
+
+# Ignore Override files
 override.tf
 override.tf.json
-*_override.tf
-*_override.tf.json
-terraform.tfstate*
-crash.log
-crash.*.log
-*.tflog
-.rego
-tfplan*
+_override.tf
+_override.tf.json
 
-# Local secrets (never commit)
-terraform.tfvars
-*.tfvars
-*.tfvars.json
-secrets.tfvars
-
-# IDE / Editor
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
