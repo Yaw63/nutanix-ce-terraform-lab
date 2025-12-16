@@ -3,7 +3,7 @@
 
 ![Nutanix CE](https://img.shields.io/badge/Nutanix-CE-orange) 
 ![AHV](https://img.shields.io/badge/Hypervisor-AHV-blue) 
-![License](https://img.shields.io/badge/License-MIT-green)
+// ![License](https://img.shields.io/badge/License-MIT-green)
 ![Azure](https://img.shields.io/badge/Microsoft%20Azure-0078D4?logo=microsoftazure&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?logo=amazon-aws&logoColor=white)
 ![VMware ESXi](https://img.shields.io/badge/VMware%20ESXi-607078?logo=vmware&logoColor=white)
