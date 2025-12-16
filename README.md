@@ -24,18 +24,6 @@ Real hardware (4 × Dell OptiPlex) • Latest AOS/CE • Cluster VIP `172.16.16.
 | NU03  | 172.16.16.103   | 172.16.16.203   | Cluster member |
 | NU04  | 172.16.16.104   | 172.16.16.204   | Cluster member |
 
-### What this repo creates with a single `terraform apply`
-- Cluster Management
-- 3 storage containers  
-  → Linux_Servers (500 GB) | Windows_Servers (500 GB) | Sec_Lab (100 GB)
-- 3 VLAN subnets with DHCP  
-  → VLAN 50  (Linux)   – full internet  
-  → VLAN 100 (Windows) – full internet  
-  → VLAN 75  (Sec_Lab) – **zero internet** (blocked via Flow NFC)
-- Ubuntu 22.04 cloud-init VMs (instant boot + SSH-ready)
-- Windows Server 2022 / Windows 10 / Windows 11 VMs (ISO ready)
-- Automatic snapshots + instant linked clones (golden-image workflow)
-- Flow micro-segmentation ready for Sec_Lab
 
 ### Quick Start
 ```bash
