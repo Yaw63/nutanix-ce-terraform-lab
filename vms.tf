@@ -105,7 +105,7 @@ resource "nutanix_virtual_machine" "windows2022" {
 
 # --- 4. TINY CORE (0.5 vCPU, 0.25GB RAM, 2GB Disk) ---
 resource "nutanix_virtual_machine" "tinycore" {
-  count = 2
+  count = 4
   name  = format("Selva-Tiny-%02d", count.index + 1)
   cluster_uuid = data.nutanix_cluster.cluster.id
 
@@ -151,7 +151,7 @@ resource "nutanix_virtual_machine" "tinycore" {
 
 # --- 5. ALPINE LINUX (0.5 vCPU, 512MB RAM, 1GB Disk) ---
 resource "nutanix_virtual_machine" "alpine" {
-  count = 2
+  count = 5
   name  = format("Selva-Alpine-%02d", count.index + 1)
   cluster_uuid = data.nutanix_cluster.cluster.id
 
