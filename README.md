@@ -1,5 +1,5 @@
-# Nutanix CE + Terraform Homelab   ![Nutanix CE](https://img.shields.io/badge/Nutanix-CE-orange) 
-![AHV](https://img.shields.io/badge/Hypervisor-AHV-blue)   ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white)  ![License](https://img.shields.io/badge/License-MIT-green) 
+# Nutanix CE + Terraform Homelab  
+![Nutanix CE](https://img.shields.io/badge/Nutanix-CE-orange)  ![AHV](https://img.shields.io/badge/Hypervisor-AHV-blue)   ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white)  ![License](https://img.shields.io/badge/License-MIT-green) 
 
 **Physical 4-node Nutanix Community Edition cluster – 100 % automated with Terraform**
 Real hardware (4 × Dell OptiPlex) • Latest AOS/CE • Cluster VIP `172.16.16.200`
