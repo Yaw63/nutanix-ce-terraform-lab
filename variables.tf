@@ -88,5 +88,5 @@ variable "windows_count" {
 variable "tiny_count" {
   description = "Number of TinyCore/Alpine VMs to deploy"
   type        = number
-  default     = 2
+  default     = 6
 }
